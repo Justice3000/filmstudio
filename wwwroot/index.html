@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/site.css">
+    <title> Sveriges Förenade Filmstudios</title>
+</head>
+<body>
+    <div id="land_content">
+    
+        <h1 class="sff_h1">SFF</h1>
+    <div id="selfDesk">
+        <fieldset>
+            <legend>User panel</legend>
+            
+            <div>
+                <form id="login_form">
+            <label for="email_login">E-Mail</label>
+            <input id="email_login" autocomplete="email" placeholder="email@somewhere.cool" required>
+
+            <label for="password_login">Password</label>
+            <input id="password_login" type="password" placeholder="Your password goes here" autocomplete="current-password" required>
+
+            <input class="button" id="button_login" type="button" value="Log In">
+            
+            <p>Join SFF <a id="register" href="#">Register Here!</a></p>
+                </form>
+            </div>
+
+        </fieldset>
+    </div>
+    
+
+   
+    
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span id="myModal_close" class="close">&times;</span>
+      <fieldset id="regField">
+        <legend>Registration Form SFF</legend>
+        <div>
+
+            <form id="registration_form">
+        <label for="email_reg">E-Mail </label>
+        <input id="email_reg" placeholder="Wick" autocomplete="email" required><br>
+
+        <label for="firstName_reg">First Name</label>
+        <input id="firstname_reg" placeholder="John" autocomplete="name" required><br>
+
+        <label for="lastname_reg">Last Name </label>
+        <input id="lastname_reg" placeholder="Wick" autocomplete="family-name" required><br>
+
+        <label for="username_reg">User Name </label>
+        <input id="username_reg" placeholder="The_Boogie_Man" autocomplete="nickname" required><br>
+
+        <label for="password_reg">Password </label>
+        <input id="password_reg" type="password" placeholder="Your password goes here" autocomplete="new-password" required><br>
+
+        <input id="password_reg_repeat" type="password"  placeholder="Repeat your password" autocomplete="new-password" required><br>
+
+
+        </form>
+    </div> 
+    </fieldset>
+    <button class="button" id="button_reg_user">Register as User</button>
+    <button class="button" id="button_reg_admin">Register as Admin</button>  
+    </div>
+</div>
+    <script type="module" src="/js/js.js"></script>
+    
+
+</body>
+</html>
